@@ -6,9 +6,11 @@
 .social_share_privacy li .twoclick-button-container {display:inline-block;}
 .social_share_privacy li .dummy_btn {float:left; margin-left:10px; padding:0;}
 .social_share_privacy li .dummy_btn span.twoclick-network {max-width:none; cursor:pointer;}
+.social_share_privacy li .dummy_btn a.twoclick-network {max-width:none; cursor:pointer; text-indent:-9999em;}
 .social_share_privacy li .dummy_btn iframe {max-width:none; border:none;}
 .social_share_privacy li .info_off .dummy_btn {background:none !important;}
 .social_share_privacy li .dummy_btn span.twoclick-network {display:block;}
+.social_share_privacy li .dummy_btn a.twoclick-network {display:block;}
 
 /* Sprite Fallback (english)
 ----------------------------------------------- */
@@ -41,41 +43,51 @@
 .social_share_privacy .twoclick-facebook {width:180px;}
 .social_share_privacy li span.fb_like_dummy {width:83px;}
 .social_share_privacy li span.fb_recommend_dummy {width:83px;}
+.social_share_privacy li a.fb_like_dummy {width:83px;}
+.social_share_privacy li a.fb_recommend_dummy {width:83px;}
+
 
 /* Twitter
 ----------------------------------------------- */
 .social_share_privacy .twoclick-twitter {width:150px;}
 .social_share_privacy li span.twitter_dummy {width:63px;}
+.social_share_privacy li a.twitter_dummy {width:63px;}
 
 /* Google+
 ----------------------------------------------- */
 .social_share_privacy .twoclick-gplus {width:123px;}
 .social_share_privacy li span.gplus_one_dummy {width:32px;}
+.social_share_privacy li a.gplus_one_dummy {width:32px;}
 
 /* Flattr
 ----------------------------------------------- */
 .social_share_privacy .twoclick-flattr {width:148px;}
 .social_share_privacy li span.flattr_dummy {width:54px;}
+.social_share_privacy li a.flattr_dummy {width:54px;}
 
 /* Xing
 ----------------------------------------------- */
 .social_share_privacy .twoclick-xing {width:145px;}
 .social_share_privacy li span.xing_dummy {width:55px;}
+.social_share_privacy li a.xing_dummy {width:55px;}
 
 /* Pinterest
 ----------------------------------------------- */
 .social_share_privacy .twoclick-pinterest {width:130px;}
 .social_share_privacy li span.pinterest_dummy {width:63px;}
+.social_share_privacy li a.pinterest_dummy {width:63px;}
 
 /* t3n
 ----------------------------------------------- */
 .social_share_privacy .twoclick-t3n {width:155px;}
 .social_share_privacy li span.t3n_dummy {width:63px;}
+.social_share_privacy li a.t3n_dummy {width:63px;}
 
 /* LinkedIn
 ----------------------------------------------- */
 .social_share_privacy .twoclick-linkedin {width:150px;}
 .social_share_privacy li span.linkedin_dummy {width:63px;}
+.social_share_privacy li a.linkedin_dummy {width:63px;}
 
 /* Switch
 ----------------------------------------------- */
